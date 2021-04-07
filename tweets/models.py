@@ -24,4 +24,4 @@ class Tweet(models.Model):
         ordering = ('-created_at', )
 
     def __str__(self):
-        return "{0} at {1}: {2}...".format(self.user,self.created_at,self.body[:20])
+        return "{0} at {1}: {2}...".format(self.user,self.created_at,self.body[:20]) 
